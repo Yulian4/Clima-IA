@@ -28,10 +28,17 @@ body.fondo-cambiando::before {
 section{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center ;
     flex-direction: column;
-    max-width: 100%;
-    width: 50vw;
+    height: 100vh;
+    
+   
+}
+.container{
+  text-align: center;
+  border: 2px solid black;
+  padding: 5vh;
+  border-radius: 10px;
 }
 h1{
     font-size: 3rem;
@@ -55,4 +62,5 @@ button{
     background-color: black;
     color: white;
     border-radius: 7px;
+    height: 5vh;
 }
